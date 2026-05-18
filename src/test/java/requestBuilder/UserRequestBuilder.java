@@ -20,7 +20,7 @@ public class UserRequestBuilder {
                 .basePath(apiPath)
                 .header("Content-Type", "application/json")
                 .accept(ContentType.JSON)
-                .body(UserPayload.registerUserPayload(firstName, lastName, email, password, groupId))
+                .body(UserPayload.registerUserPayload(firstName,lastName,email,password,groupId))
                 .when()
                 .post()
                 .then()
@@ -38,7 +38,6 @@ public class UserRequestBuilder {
                 .header("Content-Type", "application/json")
                 .accept(ContentType.JSON)
                 .body(UserPayload.userLoginPayload(email, password))
-                .when()
                 .post()
                 .then()
                 .extract().response();

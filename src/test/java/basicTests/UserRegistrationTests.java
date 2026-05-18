@@ -16,7 +16,7 @@ public class UserRegistrationTests {
         String userRegistrationPayload = "{\n" +
                 "  \"firstName\": \"Khombi\",\n" +
                 "  \"lastName\": \"API tester\",\n" +
-                "  \"email\": \"Ndosi41111@test.co.za\",\n" +
+                "  \"email\": \"Ndosi4111111@test.co.za\",\n" +
                 "  \"password\": \"12345678!\",\n" +
                 "  \"confirmPassword\": \"12345678!\",\n" +
                 "  \"groupId\": \"e07f20cf-cd6c-422d-92b1-55c15bef439f\"\n" +
